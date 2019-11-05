@@ -1,4 +1,4 @@
-# Project: Using Bootstrap [Solo Project] ([NewsWeek Clone](newsweek.com)
+# Project: Using Bootstrap [Solo Project] ([NewsWeek Clone]newsweek.com)
 
 This is the 7th project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 
