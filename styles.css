@@ -16,14 +16,6 @@ body {
   background: #fff;
 }
 
-.container .nav-item a {
-  color: #000;
-  font-size: 1.25rem;
-  margin-bottom: 0;
-  padding: 0 1rem;
-  border-right: 1px solid #e5e5e5;
-}
-
 a {
   text-decoration: none;
   color: #161616;
@@ -58,6 +50,14 @@ a {
 
 .navbar ul li {
   list-style-type: none;
+}
+
+.container .nav-item a {
+  color: #000;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  padding: 0 1rem;
+  border-right: 1px solid #e5e5e5;
 }
 
 .logo-area {
@@ -162,7 +162,6 @@ main {
 
 .featured-stories-col {
   padding: 0 1.5rem;
-  order: 2;
 }
 
 .post-title {
@@ -279,7 +278,6 @@ main {
   border: 1px solid #e5e5e5;
   max-width: 98%;
   margin: auto;
-  padding-bottom: 1rem;
 }
 
 .subscribe-sec .story-title {
@@ -330,52 +328,3 @@ main {
 .img-100 {
   width: 100%;
 }
-
-header .btn {
-  font-size: 0.9rem;
-  padding: 0;
-  position: relative;
-  top: 10px;
-}
-
-header .btn-col {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-header .fa {
-  padding-left: 0.7rem;
-  font-size: 1.2rem;
-}
-
-.top-stories-col {
-  order: 1;
-}
-
-.opinion-col {
-  order: 3;
-}
-
-.category-box {
-  margin-top: 1.4rem;
-}
-
-.newsletter-col {
-  margin-top: 1rem;
-}
-
-.copyright {
-  display: block;
-}
-
-.social {
-  float: left;
-  padding: 0;
-  margin: 1rem 0;
-}
-
-.social li {
-  padding-right: 1rem;
-}
-
-/* testing stickler */
