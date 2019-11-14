@@ -21,6 +21,23 @@ a {
   color: #161616;
 }
 
+.red-highlight {
+  display: inline-block;
+  padding: 3px 8px;
+  background:#f72210;
+  color:#fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.red-text {
+  display: inline-block;
+  padding: 3px 8px;
+  color: #f72210;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .article-post a {
   text-decoration: none;
 }
@@ -53,6 +70,7 @@ a {
 }
 
 .container .nav-item a {
+  font-weight: 700;
   color: #000;
   font-size: 1.25rem;
   margin-bottom: 0;
@@ -327,4 +345,85 @@ main {
 
 .img-100 {
   width: 100%;
+}
+@media (min-width: 1200px) {
+  .features-row img {
+    min-height: 300px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .navbar::before {
+    width: 66px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+}
+
+@media (max-width: 768px) {
+  header .btn {
+    font-size: 0.9rem;
+    padding: 0;
+    position: relative;
+    top: 10px;
+  }
+
+  header .btn-col {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  header .fa {
+    padding-left: 0.7rem;
+    font-size: 1.2rem;
+  }
+
+  .top-stories-col {
+    order: 1;
+  }
+
+  .featured-stories-col {
+    order: 2;
+  }
+
+  .opinion-col {
+    order: 3;
+  }
+
+  .category-box {
+    margin-top: 1.4rem;
+  }
+
+  .newsletter-col {
+    margin-top: 1rem;
+  }
+
+  .newsletter-row {
+    padding-bottom: 1rem;
+  }
+
+  .subscribe-sec .story-title {
+    margin-top: 80%;
+  }
+
+  .copyright {
+    display: block;
+  }
+
+  .social {
+    float: left;
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .social li {
+    padding-right: 1rem;
+  }
 }
