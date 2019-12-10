@@ -12,7 +12,7 @@ You can find the original project specification:
 
 #### [Project Code Repository Link]https://github.com/mosesmuchemi/newsweek-clone)
 
-#### [Live Version](#)
+#### [Live Version](https://mosesmuchemi.github.io/newsweek-clone/)
 
 #### Author
 
